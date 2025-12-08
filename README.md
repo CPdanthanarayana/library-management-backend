@@ -56,7 +56,7 @@ A robust and scalable backend API for the Library Management System built with *
 | -------------------- | --------------------------------- |
 | Framework            | ASP.NET Core 10                   |
 | Database             | SQLite with Entity Framework Core |
-| Authentication       | JWT (JSON Web Token)              |
+| Authentication       | JWT               |
 | ORM                  | Entity Framework Core             |
 | Development Platform | .NET 10                           |
 | API Architecture     | REST                              |
@@ -138,7 +138,7 @@ http://localhost:5118
 
 ### **Using Visual Studio**
 
-* Open the solution in Visual Studio
+* Open backend.slnx in Visual Studio
 * Restore NuGet packages
 * Press **F5** to run the application
 
@@ -209,7 +209,6 @@ The application uses the following configuration in **appsettings.json**:
 * CORS policy settings
 * JWT authentication settings
 
-*(Swagger is **not** used in this project)*
 
 ---
 
@@ -235,8 +234,7 @@ dotnet test
 
 ## 📄 License
 
-This project is private for academic/assignment use.
-A license may be added later if open-sourced.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
