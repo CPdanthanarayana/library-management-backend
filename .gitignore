@@ -10,9 +10,5 @@ obj/
 # Logs
 *.log
 
-# Databases
-*.db
-*.sqlite
-
 # Secrets
 appsettings.Development.json
